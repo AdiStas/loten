@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Lotem</title>
+	<link rel="preload" href="build/fonts/montserrat-semibold-webfont.woff2" as="font">
+	<link rel="preload" href="build/fonts/montserrat-regular-webfont.woff2" as="font">
+	<link rel="preload" href="build/fonts/yesevaone-regular-webfont.woff2" as="font">
+	<link rel="stylesheet" href="build/css/style.css">
+</head>
+
+<body>
+
+	<svg style="display: none;">
+		<g>
+			<ellipse id="ellipse" fill="#edd272" cx="95.5" cy="19" rx="95.5" ry="19"/>
+		</g>		
+	</svg>
+
+	<header class="main-header">
+		<div class="page-container header--top">
+		<div class="main-header__logo-wrap">
+			<img class="main-header__logo" src="build/img/main-logo.png" width="190" height="60" alt="main-logo">
+			<p class="main-header__description">Официальный представитель радиаторов Loten</p>
+		</div>
+		<ul class="main-header__list contacts__list">
+			<li class="contacts__item">
+				<p class="contacts__description contacts__description--map">Шоу-рум в<br> Санкт-Петербурге<br>
+					<a class="map-link" href="https://yandex.ru/maps/-/CKeh4O1~" title="Открыть карту"> ул. Курляндская, 49, оф. 4</a>
+				</p>
+			</li>
+			<li class="contacts__item">
+				<ul class="contacts__description contacts__description--feedback">
+					<li class="contacts-description__item">
+						<a class="contacts__phone" href="tel:+7(812)507-85-70" title="Позвонить">+7 (812) 507-85-70</a>
+					</li>
+					<li class="contacts-description__item">
+						<a class="contacts__mail" href="mailto:mail@loten-spb.ru" title="Написать письмо">mail@loten-spb.ru</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+		</div>
+
+		<div class="page-container">
+		<article class="main-header__promo promo__block">
+			<div class="promo__content">
+			<div class="promo__content--top">
+				<h1 class="main-header__title">Дизайнерские радиаторы отопления Loten</h1>
+				<p class="main-header__title-description">От производителя В шоу-руме 18 моделей, от 7 415 руб</p>
+			</div>
+			<div class="promo__content--bottom">
+				<p class="promo__description">Подберем и рассчитаем радиаторы для вашего помещения за 7 минут</p>
+				<a class="promo__btn" href="#">Подобрать радиатор
+					<!-- <svg class="promo__ellipse" width="191" height="38">
+						<use xlink:href="#ellipse"></use>
+					</svg> -->
+				</a>
+				<p class="promo__small-text">
+					<sup>*</sup>Расчет осуществляется по СНИП
+				</p>
+			</div>
+			</div>
+
+			<div class="promo__demonstration">
+				<button class="promo__toggle"><span class="visually-hidden">Следующий слайд</span></button>
+			</div>
+		</article>
+		</div>
+	</header>
+	
+
+	<main class="page-main">
+		<div class="page-container">
+		<section class="features">
+			<h2 class="visually-hidden">Наши преимущества</h2>
+			<ul class="features__list">
+				<li class="features__item">
+					<div class="features__item-wrapper">
+						<b class="features-item__title">5</b>
+						<span class="features-item__title-description">Лет</span>
+						<p class="features-item__description">Гарантия на радиаторы Loten</p>
+					</div>
+				</li>
+				<li class="features__item">
+				<div class="features__item-wrapper">
+					<b class="features-item__title">30</b>
+					<span class="features-item__title-description">лет</span>
+					<p class="features-item__description">Срок эксплуатации</p>
+				</div>
+				</li>
+				<li class="features__item">
+				<div class="features__item-wrapper">
+					<b class="features-item__title">от 5</b>
+					<span class="features-item__title-description">дней</span>
+					<p class="features-item__description">Доставка по РФ</p>
+				</div>
+				</li>
+				<li class="features__item">
+				<div class="features__item-wrapper">
+					<b class="features-item__title">до 50%</b>
+					<span class="features-item__title-description">дешевле</span>
+					<p class="features-item__description">Европейских радиаторов</p>
+				</div>
+				</li>
+			</ul>
+		</section>
+		</div>
+
+		<section class="about">
+			<div class="page-container">
+			<div class="about__container">
+			<div class="about__info">
+				<h2 class="about__title">Единственный<br> в Санкт-Петербурге 
+					<span class="about__title--gold">шоу-рум радиаторов Loten</span>
+				</h2>
+				<ul class="about__list">
+					<li class="about__item">Демонстрационный зал на 60 кв. м со всеми моделями радиаторов Loten</li>
+					<li class="about__item">К просмотру доступны все цвета и типы подключения.</li>
+					<li class="about__item">Рассчитаем проект отопления, пока вы пьете чай или кофе.</li>
+				</ul>
+				<p class="about__small">3D-модели радиаторов для дизайнеров</p>
+				<a class="about__link" href="#">Получить</a>
+			</div>
+			<div class="about__gallery photo__gallery">
+				<img class="photo__big" src="build/img/big-photo.jpg" width="688" height="533" alt="gallery-photo">
+			<div class="gallery-slider">
+				<button class="photo__prev-btn gallery-btn"><span class="visually-hidden">Предыдущее фото</span></button>
+				<ul class="photo__list">
+					<li class="photo__item">
+						<img src="build/img/photo1.jpg" alt="photo1" width="190" height="146" class="photo__img photo__img--active">
+					</li>
+					<li class="photo__item">
+						<img src="build/img/photo2.jpg" alt="photo2" width="190" height="146" class="photo__img">
+					</li>
+					<li class="photo__item">	
+						<img src="build/img/photo3.jpg" alt="photo3" width="190" height="146" class="photo__img">
+					</li>
+				</ul>
+				<button class="photo__next-btn gallery-btn"><span class="visually-hidden">Следующее фото</span></button>
+			</div>	
+			</div>
+			</div>
+			</div>
+		</section>
+
+		<section class="top">
+			<div class="page-container">
+				<h2 class="top__title">
+					<span class="top__title--gold">ТОП-6</span><br>востребованных моделей
+				</h2>
+			<ul class="top__list">
+				<li class="top__item">
+					<img src="build/img/Rectangle1.png" alt="Образец 1">
+					<p class="top__description">Трубчатый вертикальный радиатор Loten 42 V</p>
+					<p class="top__price">от 7415р.</p>
+					<a href="#" class="top__more-btn">Подробнее</a>
+					<span class="top__index">/01</span>
+				</li>
+				<li class="top__item">
+					<img src="build/img/Rectangle2.png" alt="Образец 2">
+					<p class="top__description">Трубчатый вертикальный радиатор Loten 42 V</p>
+					<p class="top__price">от 7415р.</p>
+					<a href="#" class="top__more-btn">Подробнее</a>
+					<span class="top__index">/02</span>
+				</li>
+				<li class="top__item">
+					<img src="build/img/Rectangle3.png" alt="Образец 3">
+					<p class="top__description">Трубчатый вертикальный радиатор Loten 42 V</p>
+					<p class="top__price">от 7415р.</p>
+					<a href="#" class="top__more-btn">Подробнее</a>
+					<span class="top__index">/03</span>
+				</li>
+				<li class="top__item">
+					<img src="build/img/Rectangle4.png" alt="Образец 4">
+					<p class="top__description">Трубчатый вертикальный радиатор Loten 42 V</p>
+					<p class="top__price">от 7415р.</p>
+					<a href="#" class="top__more-btn">Подробнее</a>
+					<span class="top__index">/04</span>
+				</li>
+				<li class="top__item">
+					<img src="build/img/Rectangle5.png" alt="Образец 5">
+					<p class="top__description">Трубчатый вертикальный радиатор Loten 42 V</p>
+					<p class="top__price">от 7415р.</p>
+					<a href="#" class="top__more-btn">Подробнее</a>
+					<span class="top__index">/05</span>
+				</li>
+				<li class="top__item">
+					<img src="build/img/Rectangle6.png" alt="Образец 6">
+					<p class="top__description">Трубчатый вертикальный радиатор Loten 42 V</p>
+					<p class="top__price">от 7415р.</p>
+					<a href="#" class="top__more-btn">Подробнее</a>
+					<span class="top__index">/06</span>
+				</li>
+			</ul>
+			</div>
+		</section>
+	</main>
+
+	<script src="build/js/gallery.js"></script>
+	<script src="build/js/demonstration.js"></script>
+</body>
+</html>

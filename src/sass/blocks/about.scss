@@ -1,0 +1,224 @@
+.about {
+	margin-bottom: 135px;
+	padding-top: 140px;
+}
+
+.about__container {
+	display: flex;
+
+	position: relative;
+
+	&::before {
+		content: "";
+
+		position: absolute;
+		top: -140px;
+		left: -300px;
+
+		width: 270px;
+		height: 919px;
+
+		background-image: url(../img/title.png);
+	}
+}
+
+.about__info {
+	flex-basis: 44%;
+}
+
+.about__title {
+	margin: 0;
+	margin-top: -10px;
+	margin-bottom: 20px;
+
+	font-family: 'yeseva_oneregular';
+	font-size: 50px;
+	line-height: 70px;
+	font-weight: 300;
+}
+
+.about__title--gold {
+	display: block;
+	color: $gold;
+}
+
+.about__list {
+	@include list-reset;
+}
+
+.about__item {
+	position: relative;
+	padding: 0 80px;
+	margin-bottom: 30px;
+
+	font-size: 20px;
+	line-height: 35px;
+
+	&::before {
+		content: "";
+
+		position: absolute;
+		top: 10%;
+		left: 0;
+
+		width: 46px;
+		height: 46px;
+
+		background-image: url(../img/list-pin.png);
+	}
+}
+
+.about__small {
+	margin: 0 120px 30px;
+	width: 230px;
+
+	text-align: center;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.about__link {
+	display: inline-block;
+	width: 305px;
+	margin: 0 80px;
+	padding: 40px 28px;
+	box-sizing: border-box;
+
+	border-radius: 50px;
+	
+	text-align: center;
+	font-family: 'montserratsemibold';
+	font-size: 24px;
+	line-height: 30px; 
+
+	text-decoration: none;
+	color: #8e6603;
+	background-color: #e0c378;
+	background-image: url(../img/btn-pattern.png);
+	box-shadow: inset 0px -30px 1px 1px #ffe9ad, 0px 5px 0px 0px $gold;
+
+	cursor: pointer;
+	transition: all .4s, opacity .1s;
+
+	&:hover,
+	&:focus {
+		transform: scale(1.1);
+		background-color: #ffe9ad;
+	}
+
+	&:active {
+		opacity: .3;
+	}
+}
+
+.about__gallery {
+	text-align: center;
+
+	flex-basis: 56%;
+}
+
+.gallery-slider {
+	position: relative;
+}
+
+.photo__big {
+	margin-bottom: 30px;
+
+	border-radius: 10px;
+}
+
+.photo__list {
+	@include list-reset;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.photo__item {
+	margin: 0 10px;
+}
+
+.photo__img {
+	border-radius: 10px;
+
+	opacity: 0.4;
+
+	transition: all .5s;
+}
+
+.photo__img--active {
+	opacity: 1;
+}
+
+.gallery-btn {
+	position: absolute;
+
+	width: 56px;
+	height: 60px;
+
+	border: none;
+	background-color: transparent;
+	background-image: url(../img/arrow-shape.png);
+
+	cursor: pointer;
+
+	transition: all .4s, opacity .1s;
+
+	&::before,
+	&::after {
+		content: "";
+
+		top: 45%;
+		left: 55%;
+
+		position: absolute;
+		width: 2px;
+		height: 20px;
+
+		background-color: #000;
+
+		transform: rotate(45deg);
+	}
+
+	&::after {
+		top: 24%;
+		left: 55%;
+
+		transform: rotate(-45deg);
+	}
+
+	&:hover,
+	&:focus {
+		transform: rotate(180deg) scale(1.1);
+	}
+
+	&:active {
+		opacity: .3;
+	}
+}
+
+.photo__prev-btn {
+	top: 50%;
+	left: -10px;
+
+	margin-top: -30px;
+
+	transform: rotate(180deg);
+}
+
+.photo__next-btn {
+	top: 50%;
+	right: -10px;
+
+	margin-top: -30px;
+
+	&:hover,
+	&:focus {
+		transform: rotate(0deg) scale(1.1);
+	}
+}
+
+@media (max-width: $desktopLarge-width) and (min-width: $desktop-width) {
+	
+}

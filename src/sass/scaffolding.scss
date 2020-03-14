@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'montserratsemibold';
+    src: url('../../build/fonts/montserrat-semibold-webfont.woff2') format('woff2'),
+         url('../../build/fonts/montserrat-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../../build/fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../../build/fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'yeseva_oneregular';
+    src: url('../../build/fonts/yesevaone-regular-webfont.woff2') format('woff2'),
+         url('../../build/fonts/yesevaone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+	min-width: 320px;
+	margin: 0;
+	padding: 0;
+
+	font-size: 16px;
+	line-height: 20px;
+
+	font-family: 'montserratregular', 'Arial', sans-serif;
+  color: $navy;
+  background-color: #f9f9f7;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.page-container {
+  max-width: 1305px;
+  margin: 0 auto;
+}
