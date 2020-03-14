@@ -1,6 +1,5 @@
 .about {
 	margin-bottom: 135px;
-	padding-top: 140px;
 }
 
 .about__container {
@@ -222,7 +221,7 @@
 
 @media (max-width: $desktopLarge-width) {
 	.about {
-		margin: 0 100px
+		margin: 0 100px 100px;
 	}
 
 	.about__container {
@@ -372,12 +371,18 @@
 }
 
 @media (max-width: $tabletLarge-width) {
+	.photo__prev-btn {
+		left: -40px;
+	}
 
+	.photo__next-btn {
+		right: -40px;
+	}
 }
 
 @media (max-width: $tablet-width) {
 	.about {
-		margin: 0 30px;
+		margin: 0 30px 50px;
 	}
 
 	.about__info {
@@ -414,6 +419,6 @@
 	}
 
 	.photo__img {
-		width: 100%;
+		width: 60%;
 	}
 }
