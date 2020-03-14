@@ -18,6 +18,7 @@
 	margin-bottom: 30px;
 	display: flex;
 	flex-basis: 300px;
+	min-height: 287px;
 	box-sizing: border-box;
 
 	padding: 10px;
@@ -36,6 +37,7 @@
 	background-image: url(../img/path.png);
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
 
 	border-radius: 10px;
 }
