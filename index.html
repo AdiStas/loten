@@ -7,17 +7,10 @@
 	<link rel="preload" href="build/fonts/montserrat-semibold-webfont.woff2" as="font">
 	<link rel="preload" href="build/fonts/montserrat-regular-webfont.woff2" as="font">
 	<link rel="preload" href="build/fonts/yesevaone-regular-webfont.woff2" as="font">
-	<link rel="stylesheet" href="build/css/style.css">
+	<link rel="stylesheet" href="build/css/style.min.css">
 </head>
 
 <body>
-
-	<svg style="display: none;">
-		<g>
-			<ellipse id="ellipse" fill="#edd272" cx="95.5" cy="19" rx="95.5" ry="19"/>
-		</g>		
-	</svg>
-
 	<header class="main-header">
 		<div class="page-container header--top">
 		<div class="main-header__logo-wrap">
@@ -51,16 +44,12 @@
 			</div>
 			<div class="promo__content--bottom">
 				<p class="promo__description">Подберем и рассчитаем радиаторы для вашего помещения за 7 минут</p>
-				<a class="promo__btn" href="#">Подобрать радиатор
-					<!-- <svg class="promo__ellipse" width="191" height="38">
-						<use xlink:href="#ellipse"></use>
-					</svg> -->
-				</a>
+				<a class="promo__btn" href="#">Подобрать радиатор</a>
 				<p class="promo__small-text">
 					<sup>*</sup>Расчет осуществляется по СНИП
 				</p>
 			</div>
-			<button class="promo__toggle"><span class="visually-hidden">Следующий слайд</span></button>
+			<button class="promo__toggle" type="button"><span class="visually-hidden">Следующий слайд</span></button>
 		</article>
 		</div>
 	</header>
@@ -121,7 +110,7 @@
 			<div class="about__gallery photo__gallery">
 				<img class="photo__big" src="build/img/big-photo.jpg" width="688" height="533" alt="gallery-photo">
 			<div class="gallery-slider">
-				<button class="photo__prev-btn gallery-btn"><span class="visually-hidden">Предыдущее фото</span></button>
+				<button class="photo__prev-btn gallery-btn" type="button"><span class="visually-hidden">Предыдущее фото</span></button>
 				<ul class="photo__list">
 					<li class="photo__item">
 						<img src="build/img/photo1.jpg" alt="photo1" width="190" height="146" class="photo__img photo__img--active">
@@ -133,7 +122,7 @@
 						<img src="build/img/photo3.jpg" alt="photo3" width="190" height="146" class="photo__img">
 					</li>
 				</ul>
-				<button class="photo__next-btn gallery-btn"><span class="visually-hidden">Следующее фото</span></button>
+				<button class="photo__next-btn gallery-btn" type="button"><span class="visually-hidden">Следующее фото</span></button>
 			</div>	
 			</div>
 			</div>

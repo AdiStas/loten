@@ -3,7 +3,6 @@
 (function () {
 	let button = document.querySelector('.promo__toggle');
 	let container = document.querySelector('.main-header');
-	// let container = document.querySelector('.promo__demonstration');
 	let i = 1;
 
 	button.addEventListener('click', function() {

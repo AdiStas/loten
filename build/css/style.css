@@ -509,7 +509,8 @@ img {
   background-image: url(../img/btn-pattern.png);
   box-shadow: inset 0px -30px 1px 1px #ffe9ad, 0px 5px 0px 0px #ccad51;
   cursor: pointer;
-  transition: all .4s, opacity .1s; }
+  transition: all .4s, opacity .1s;
+  outline: none; }
   .promo__btn:hover, .promo__btn:focus {
     transform: scale(1.1);
     background-color: #ffe9ad; }
@@ -537,6 +538,7 @@ img {
   box-shadow: 0px 5px 0px 0px #ccad51;
   border: none;
   cursor: pointer;
+  outline: none;
   transition: all .4s, opacity .1s; }
   .promo__toggle::before, .promo__toggle::after {
     content: "";
@@ -836,6 +838,7 @@ img {
   background-image: url(../img/btn-pattern.png);
   box-shadow: inset 0px -30px 1px 1px #ffe9ad, 0px 5px 0px 0px #ccad51;
   cursor: pointer;
+  outline: none;
   transition: all .4s, opacity .1s; }
   .about__link:hover, .about__link:focus {
     transform: scale(1.1);
@@ -882,6 +885,7 @@ img {
   background-color: transparent;
   background-image: url(../img/arrow-shape.png);
   cursor: pointer;
+  outline: none;
   transition: all .4s, opacity .1s; }
   .gallery-btn::before, .gallery-btn::after {
     content: "";
@@ -1126,6 +1130,7 @@ img {
   background-color: #fff;
   font-size: 20px;
   line-height: 28px;
+  outline: none;
   transition: all .4s, opacity .1s; }
   .top__more-btn:hover, .top__more-btn:focus {
     box-shadow: inset 250px 40px 0px 0px #ccad51;

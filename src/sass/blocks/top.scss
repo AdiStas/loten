@@ -119,25 +119,26 @@
 
 	text-align: center;
 	text-decoration: none; 
-  border: 1px solid rgb(204, 173, 81);
-  border-radius: 31px;
-  color: rgb(204, 173, 81);
-  background-color: #fff;
+  	border: 1px solid rgb(204, 173, 81);
+  	border-radius: 31px;
+  	color: rgb(204, 173, 81);
+  	background-color: #fff;
 
-  font-size: 20px;
-  line-height: 28px;
+  	font-size: 20px;
+  	line-height: 28px;
+  	outline: none;
 
-  transition: all .4s, opacity .1s;
+  	transition: all .4s, opacity .1s;
 
-  &:hover,
-  &:focus {
-  	box-shadow: inset 250px 40px 0px 0px rgb(204, 173, 81);
-  	color: #fff;
-  }
+  	&:hover,
+  	&:focus {
+  		box-shadow: inset 250px 40px 0px 0px rgb(204, 173, 81);
+  		color: #fff;
+  	}
 
-  &:active {
-  	opacity: .3;
-  }
+  	&:active {
+  		opacity: .3;
+  	}
 }
 
 @media (max-width: $desktopLarge-width) {

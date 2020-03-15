@@ -97,6 +97,7 @@
 	box-shadow: inset 0px -30px 1px 1px #ffe9ad, 0px 5px 0px 0px $gold;
 
 	cursor: pointer;
+	outline: none; 
 	transition: all .4s, opacity .1s;
 
 	&:hover,
@@ -162,6 +163,7 @@
 	background-image: url(../img/arrow-shape.png);
 
 	cursor: pointer;
+	outline: none;
 
 	transition: all .4s, opacity .1s;
 
